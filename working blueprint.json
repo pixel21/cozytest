@@ -131,7 +131,7 @@
       "step": "runSql",
       "sql": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/wp_options_import.txt"
+        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/wp_options.sql"
       }
     }
   ]
