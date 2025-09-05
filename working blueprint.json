@@ -15,6 +15,9 @@
   },
   "steps": [
     {
+      "step": "resetData"
+    },
+    {
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
