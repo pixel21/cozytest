@@ -97,6 +97,13 @@
       "options": {
         "activate": true
       }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/cozycontent.xml"
+      }
     }
   ]
 }
