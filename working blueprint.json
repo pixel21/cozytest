@@ -1,0 +1,131 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Step 1: Install Plugins",
+    "description": "Installing and activating plugins for Cozy Community site",
+    "author": "Cozy Community"
+  },
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "login": {
+    "username": "admin",
+    "password": "password"
+  },
+  "steps": [
+    {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
+        "resource": "url",
+        "url": "https://www.dropbox.com/scl/fi/wqxh9xqqmgtyyvd73ywsl/wp-content.zip?rlkey=pwnj65clxp90430zte4may5y5&st=k27554xw&dl=1"
+      }
+    },
+    {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
+        "resource": "url",
+        "url": "https://www.dropbox.com/scl/fi/840t639bk1cyg8cb9qy4k/wp-content.zip?rlkey=5tdiiq2otfnnkyy1r2wlpy8x9&st=pxtd4u4c&dl=1"
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfour"
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://github.com/pixel21/cozytest/raw/refs/heads/main/cozy-communities.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "bbpress"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "buddypress"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "akismet"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "jetpack"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "jetpack-protect"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "bbpress"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "buddypress"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "akismet"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "jetpack"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "jetpack-protect"
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://github.com/a8cteam51/community-gallery-tags/archive/refs/heads/main.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Just rying out",
+        "bp-active-components": {
+          "xprofile": "1",
+          "members": "1"
+        }
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/cozycontent.xml"
+      }
+    }
+  ]
+}
