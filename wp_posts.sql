@@ -1,23 +1,3 @@
--- -------------------------------------------------------------
--- TablePlus 6.6.9(633)
---
--- https://tableplus.com/
---
--- Database: cozycommunity
--- Generation Time: 2025-09-05 16:02:40.9600
--- -------------------------------------------------------------
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
-
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1, 1, '2024-07-19 23:34:05', '2024-07-19 23:34:05', '<!-- wp:paragraph -->\n<p>Hey everyone!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The countdown is officially on—only 120 days left until we all come together to celebrate Alex’s 25th birthday at Golden Sands Shore! 🌞🎉</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>We’ve been working hard to make this day unforgettable, and we’re so excited to see everyone. From the beach games to the sunset dinner, every detail is being planned to make sure it’s a day full of fun, laughter, and amazing memories.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A few reminders as we get closer:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><strong>RSVP:</strong> If you haven’t already, please make sure to RSVP so we know you’re coming.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><strong>Parking:</strong> Remember, free parking is available, but spots might fill up fast, so plan to arrive a little early.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><strong>What to Bring:</strong> Don’t forget your beach essentials—towel, sunscreen, and maybe a hat or sunglasses. And of course, your best party vibes!</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p>We’ll be posting more updates as the day approaches, so stay tuned. We can’t wait to celebrate with you all and make Alex’s 25th a day to remember!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Cheers,<br>Alex\'s sister Emily</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->', 'Countdown to Alex’s 25th Birthday Bash!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2024-09-03 18:19:24', '2024-09-03 18:19:24', '', 0, '/?p=1', 0, 'post', '', 0),
 (4, 0, '2024-07-19 23:34:18', '2024-07-19 23:34:18', '<!-- wp:navigation-link {\"label\":\"Itinerary\",\"type\":\"page\",\"id\":25,\"url\":\"//itinerary/\",\"kind\":\"post-type\"} /-->\n\n<!-- wp:navigation-link {\"label\":\"Venue\",\"type\":\"page\",\"id\":30,\"url\":\"/venue/\",\"kind\":\"post-type\"} /-->\n\n<!-- wp:navigation-link {\"label\":\"FAQ\",\"type\":\"page\",\"id\":32,\"url\":\"/f-a-q/\",\"kind\":\"post-type\"} /-->\n\n<!-- wp:navigation-link {\"label\":\"Community Gallery\",\"type\":\"page\",\"id\":28,\"url\":\"/community-gallery/\",\"kind\":\"post-type\"} /-->\n\n<!-- wp:navigation-link {\"label\":\"Members\",\"type\":\"buddypress\",\"id\":77,\"url\":\"/members/\",\"kind\":\"post-type\"} /-->\n\n<!-- wp:navigation-link {\"label\":\"Forums\",\"type\":\"link\",\"url\":\"/forums/\",\"kind\":\"custom\"} /-->', 'Navigation', '', 'publish', 'closed', 'closed', '', 'navigation', '', '', '2025-04-25 17:57:54', '2025-04-25 17:57:54', '', 0, '/2024/07/19/navigation/', 0, 'wp_navigation', '', 0),
