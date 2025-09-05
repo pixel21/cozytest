@@ -43,6 +43,9 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "bbpress"
+      },
+      "options": {
+        "activate": true
       }
     },
     {
@@ -50,6 +53,9 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
+      },
+      "options": {
+        "activate": true
       }
     },
     {
@@ -57,6 +63,9 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "akismet"
+      },
+      "options": {
+        "activate": true
       }
     },
     {
@@ -64,6 +73,9 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "jetpack"
+      },
+      "options": {
+        "activate": true
       }
     },
     {
@@ -71,27 +83,10 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "jetpack-protect"
+      },
+      "options": {
+        "activate": true
       }
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "bbpress"
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "buddypress"
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "akismet"
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "jetpack"
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "jetpack-protect"
     },
     {
       "step": "installPlugin",
