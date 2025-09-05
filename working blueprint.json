@@ -52,16 +52,6 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "wordpress.org/plugins",
-        "slug": "buddypress"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
         "slug": "akismet"
       },
       "options": {
@@ -93,6 +83,16 @@
       "pluginData": {
         "resource": "url",
         "url": "https://github.com/a8cteam51/community-gallery-tags/archive/refs/heads/main.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "buddypress"
       },
       "options": {
         "activate": true
