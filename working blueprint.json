@@ -18,14 +18,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/wqxh9xqqmgtyyvd73ywsl/wp-content.zip?rlkey=pwnj65clxp90430zte4may5y5&st=k27554xw&dl=1"
-      }
-    },
-    {
-      "step": "importWordPressFiles",
-      "wordPressFilesZip": {
-        "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/840t639bk1cyg8cb9qy4k/wp-content.zip?rlkey=5tdiiq2otfnnkyy1r2wlpy8x9&st=pxtd4u4c&dl=1"
+        "url": "https://www.dropbox.com/scl/fi/z07smw8zv79t3h7l5vn0r/wp-content.zip?rlkey=b4acvlpubdqixc1hu17r7v8x0&st=exbcm1ur&dl=1"
       }
     },
     {
@@ -108,16 +101,6 @@
       },
       "options": {
         "activate": true
-      }
-    },
-    {
-      "step": "setSiteOptions",
-      "options": {
-        "blogname": "Just rying out",
-        "bp-active-components": {
-          "xprofile": "1",
-          "members": "1"
-        }
       }
     },
     {
