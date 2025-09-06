@@ -106,8 +106,7 @@
       "file": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/cozycontent.xml"
-      },
-      "importer": "data-liberation"
+      }
     }
 
   ]
