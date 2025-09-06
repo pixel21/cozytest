@@ -101,9 +101,6 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
-      },
-      "options": {
-        "activate": true
       }
     },
     {
