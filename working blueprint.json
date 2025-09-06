@@ -54,9 +54,6 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "bbpress"
-      },
-      "options": {
-        "activate": true
       }
     },
     {
