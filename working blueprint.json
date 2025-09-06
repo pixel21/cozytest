@@ -21,7 +21,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/z07smw8zv79t3h7l5vn0r/wp-content.zip?rlkey=b4acvlpubdqixc1hu17r7v8x0&st=exbcm1ur&dl=1"
+        "url": "https://www.dropbox.com/scl/fi/xm620se226dpjrswcmqxc/wp-content.zip?rlkey=r4zbjniebhpclwchhtlih4l1g&st=5b7fnz90&dl=1"
       }
     },
     {
@@ -99,13 +99,6 @@
       },
       "options": {
         "activate": true
-      }
-    },
-    {
-      "step": "runSql",
-      "sql": {
-        "resource": "url",
-        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/wp_posts.sql"
       }
     }
 
