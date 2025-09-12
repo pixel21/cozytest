@@ -15,22 +15,7 @@
   },
   "steps": [
     {
-      "step": "defineWpConfigConsts",
-      "consts": {
-        "WP_DEBUG": false,
-        "WP_DEBUG_LOG": false,
-        "WP_DEBUG_DISPLAY": false
-      }
-    },
-    {
       "step": "resetData"
-    },
-    {
-      "step": "importWordPressFiles",
-      "wordPressFilesZip": {
-        "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/kww3w9d1usrajrspv2r2s/wp-content.zip?rlkey=i68ppv0zqclrnhhv2z4uu3zkp&st=wxd81g4l&dl=1"
-      }
     },
     {
       "step": "installTheme",
@@ -61,6 +46,13 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
+      }
+    },
+    {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
+        "resource": "url",
+        "url": "https://www.dropbox.com/scl/fi/6a3yk6mzu0j8wo6fbo5hh/wp-content.zip?rlkey=0215egl6bl0mg1l2ajlwi6cxi&st=7uy0kv5p&dl=1"
       }
     }
   ]
