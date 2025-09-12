@@ -29,24 +29,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/xm620se226dpjrswcmqxc/wp-content.zip?rlkey=r4zbjniebhpclwchhtlih4l1g&st=5b7fnz90&dl=1"
-      }
-    },
-    {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "wordpress.org/themes",
-        "slug": "twentytwentyfour"
-      }
-    },
-    {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "url",
-        "url": "https://github.com/pixel21/cozytest/raw/refs/heads/main/cozy-communities.zip"
-      },
-      "options": {
-        "activate": true
+        "url": "https://www.dropbox.com/scl/fi/ehir2ys1b718w2isejgno/wp-content.zip?rlkey=z840ddu864nnppic5ftxyu6jg&st=1eqnrzea&dl=1",
       }
     },
     {
@@ -54,36 +37,6 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "bbpress"
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "akismet"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "jetpack"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "jetpack-protect"
-      },
-      "options": {
-        "activate": true
       }
     },
     {
@@ -102,15 +55,6 @@
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
       }
-    },
-    {
-      "step": "importWxr",
-      "file": {
-        "resource": "url",
-        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/cozycontent.xml"
-      }
     }
-
-
   ]
 }
