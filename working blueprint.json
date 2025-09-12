@@ -18,10 +18,20 @@
       "step": "resetData"
     },
     {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
+        "resource": "url",
+        "url": "https://www.dropbox.com/scl/fi/6a3yk6mzu0j8wo6fbo5hh/wp-content.zip?rlkey=0215egl6bl0mg1l2ajlwi6cxi&st=7uy0kv5p&dl=1"
+      }
+    },
+    {
       "step": "installTheme",
       "themeData": {
         "resource": "wordpress.org/themes",
         "slug": "twentytwentyfour"
+      },
+      "options": {
+        "activate": false
       }
     },
     {
@@ -47,13 +57,7 @@
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
       }
-    },
-    {
-      "step": "importWordPressFiles",
-      "wordPressFilesZip": {
-        "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/6a3yk6mzu0j8wo6fbo5hh/wp-content.zip?rlkey=0215egl6bl0mg1l2ajlwi6cxi&st=7uy0kv5p&dl=1"
-      }
     }
+    
   ]
 }
