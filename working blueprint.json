@@ -29,7 +29,14 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/sqg05fb63mx0trq95bvy1/wp-content.zip?rlkey=e8kceo1t2uunuh1rkmdawiyf3&st=5shqycvh&dl=1"
+        "url": "https://www.dropbox.com/scl/fi/kww3w9d1usrajrspv2r2s/wp-content.zip?rlkey=i68ppv0zqclrnhhv2z4uu3zkp&st=wxd81g4l&dl=1"
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfour"
       }
     },
     {
