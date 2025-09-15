@@ -29,7 +29,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/6a3yk6mzu0j8wo6fbo5hh/wp-content.zip?rlkey=0215egl6bl0mg1l2ajlwi6cxi&st=7uy0kv5p&dl=1"
+        "url": "https://www.dropbox.com/scl/fi/z301s85a7unqxicfi07tq/wp-content.zip?rlkey=v7bw8ubuj2ocg5k34uzkr3rp1&st=gu8njcm2&dl=1"
       }
     },
     {
@@ -42,6 +42,17 @@
         "activate": false
       }
     },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://github.com/pixel21/cozytest/raw/refs/heads/main/cozy-communities.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+
     {
       "step": "installPlugin",
       "pluginData": {
