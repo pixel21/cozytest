@@ -57,6 +57,10 @@
         "resource": "wordpress.org/plugins",
         "slug": "buddypress"
       }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp rewrite flush"
     }
     
   ]
