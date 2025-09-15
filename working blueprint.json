@@ -60,7 +60,11 @@
     },
     {
       "step": "wp-cli",
-      "command": "wp rewrite structure '/%year%/%monthnum%/%day%/%postname%/'"
+      "command": "wp option update permalink_structure '/%year%/%monthnum%/%day%/%postname%/'"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp rewrite flush"
     }
     
   ]
