@@ -60,7 +60,7 @@
     },
     {
       "step": "wp-cli",
-      "command": "wp rewrite structure '/%year%/%monthnum%/%day%/%postname%/' --hard"
+      "command": "wp rewrite structure '/%year%/%monthnum%/%day%/%postname%/'"
     }
     
   ]
