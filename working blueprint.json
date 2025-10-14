@@ -29,7 +29,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://www.dropbox.com/scl/fi/20uboyiyy5c7gkwgylqyx/wp-content.zip?rlkey=cdg4dyvuhdrw7n3ggenc2yxt4&st=4eeypnka&dl=1"
+        "url": "https://github.com/pixel21/cozytest/raw/refs/heads/main/wp-content.zip"
       }
     },
     {
