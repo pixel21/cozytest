@@ -26,13 +26,6 @@
       "step": "resetData"
     },
     {
-      "step": "importWordPressFiles",
-      "wordPressFilesZip": {
-        "resource": "url",
-        "url": "https://github.com/pixel21/cozytest/raw/refs/heads/main/wp-content.zip"
-      }
-    },
-    {
       "step": "installTheme",
       "themeData": {
         "resource": "wordpress.org/themes",
@@ -73,7 +66,13 @@
     {
       "step": "wp-cli",
       "command": "wp rewrite flush"
+    },
+    {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/pixel21/cozytest/refs/heads/main/wp-content.zip"
+      }
     }
-    
   ]
 }
